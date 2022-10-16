@@ -99,6 +99,20 @@ background-size: cover;
   background-color: #2f303a;
 }
 
+.footer-title {
+display: flex;
+margin-left: 156px;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 20px;
+margin-top: 72px;
+}
+
+
 .site-nav,
 .auth-nav,
 .communication,
