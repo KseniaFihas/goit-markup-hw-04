@@ -66,6 +66,10 @@ img {
   color: var(--brand-color);
 }
 
+
+
+
+
 .button-buy {
   display: flex;
   flex-direction: column;
@@ -110,6 +114,7 @@ text-transform: uppercase;
 color: #FFFFFF;
 margin-bottom: 20px;
 margin-top: 72px;
+
 }
 
 
@@ -129,17 +134,26 @@ margin-top: 72px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--text-color);
+  color: #757575;
   text-decoration: none;
+  display: flex;
+  flex-direction: row-reverse;
 }
+.mail-icon {
+  margin-right: 10px;
+  fill: currentColor;
+  }
+
+.smarthone-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 
 .link:hover,
 .link:focus {
-  color: var(--button-color);
-}
-.link:active {
-  color: var(--button-color);
-}
+ color: var(--button-color);
+} 
 
 .tel {
   color: #757575;
@@ -346,9 +360,9 @@ margin-top: 72px;
 
 .auth-nav {
   display: flex;
-  gap: 50px;
+  gap: 30px;
   align-items: center;
-  margin-left: 344px;
+  margin-left: 318px;
 }
 .site-nav {
   display: flex;
