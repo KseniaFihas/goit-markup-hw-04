@@ -67,9 +67,6 @@ img {
 }
 
 
-
-
-
 .button-buy {
   display: flex;
   flex-direction: column;
@@ -134,11 +131,17 @@ margin-top: 72px;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
   text-decoration: none;
-  display: flex;
-  flex-direction: row-reverse;
-}
+  color: #757575;
+  }
+
+  .contact-icon {
+    display: flex;
+    align-items: center;
+    color:  #757575;
+    flex-direction: row;
+  }
+
 .mail-icon {
   margin-right: 10px;
   fill: currentColor;
@@ -147,17 +150,19 @@ margin-top: 72px;
 .smarthone-icon {
   margin-right: 10px;
   fill: currentColor;
-}
-
+} 
 
 .link:hover,
 .link:focus {
  color: var(--button-color);
+ fill: var(--button-color);
 } 
 
 .tel {
   color: #757575;
 }
+  
+
 .street {
   font-size: 14px;
   line-height: 1.71;
@@ -213,9 +218,31 @@ margin-top: 72px;
   gap: 30px;
 }
 
+.list-details {
+  display: block;
+  width: 270px;
+  height: 120px;
+  background-color: #F5F4FA;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-antena,
+.icon-clock,
+.icon-diagram,
+.icon-astronaut {
+  display: flex;
+  width: 70px;
+  height: 70px;
+ 
+}
+
 .details {
   display: flex;
 }
+
+
 
 .list-do {
   display: flex;
@@ -245,6 +272,7 @@ margin-top: 72px;
   text-transform: uppercase;
   color: var(--text-color);
   margin-bottom: 10px;
+  margin-top: 30px;
 }
 .type-button {
   text-decoration: none;
