@@ -121,7 +121,8 @@ color: #FFFFFF;
 .list-image,
 .list-do,
 .list-team,
-.icon-list {
+.icon-list,
+.social-team-list {
   list-style-type: none;
 }
 
@@ -222,17 +223,20 @@ color: #FFFFFF;
 }
 
 
-.icon-list {
+.details-icon {
 width: 270px;
 height: 120px;
 display: flex;
 background: #F5F4FA;
-border-radius: 4px;
 justify-content: center;
-  align-items: center;
- 
+align-items: center;
+border-radius: 4px;
 }
 
+.icon-list {
+  fill: 
+  hsla(0, 0%, 13%, 1);
+}
 
 .details {
   display: flex;
@@ -304,7 +308,17 @@ justify-content: center;
 .list-team {
   display: flex;
   gap: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
+
+.social-team-list {
+  display: flex;
+  margin-top: 16px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
 .filter {
   background-color: #f5f4fa;
   color: var(--text-color);
