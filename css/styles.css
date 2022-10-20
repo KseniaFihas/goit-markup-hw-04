@@ -98,20 +98,17 @@ background-size: cover;
 
 .footer {
   background-color: #2f303a;
+  
 }
 
 .footer-title {
-display: flex;
-margin-left: 156px;
+display: block;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
-margin-bottom: 20px;
-margin-top: 72px;
-
 }
 
 
@@ -123,9 +120,17 @@ margin-top: 72px;
 .list-button,
 .list-image,
 .list-do,
-.list-team {
+.list-team,
+.icon-list {
   list-style-type: none;
 }
+
+.contact-icon {
+  display: flex;
+  color:  #757575;
+  cursor: pointer;
+}
+
 .link {
   font-weight: 500;
   font-size: 14px;
@@ -133,13 +138,10 @@ margin-top: 72px;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #757575;
-  }
-
-  .contact-icon {
-    display: flex;
-    align-items: center;
-    color:  #757575;
-    flex-direction: row;
+  fill: #757575;
+  display: flex;
+  flex-direction: flex-start;
+  align-items: center;
   }
 
 .mail-icon {
@@ -147,10 +149,10 @@ margin-top: 72px;
   fill: currentColor;
   }
 
-.smarthone-icon {
-  margin-right: 10px;
-  fill: currentColor;
-} 
+  .smarthone-icon {
+    margin-right: 10px;
+    fill: currentColor;
+  }  
 
 .link:hover,
 .link:focus {
@@ -161,7 +163,8 @@ margin-top: 72px;
 .tel {
   color: #757575;
 }
-  
+
+
 
 .street {
   font-size: 14px;
@@ -218,25 +221,18 @@ margin-top: 72px;
   gap: 30px;
 }
 
-.list-details {
-  display: block;
-  width: 270px;
-  height: 120px;
-  background-color: #F5F4FA;
-  border-radius: 4px;
-  align-items: center;
-  justify-content: center;
-}
 
-.icon-antena,
-.icon-clock,
-.icon-diagram,
-.icon-astronaut {
-  display: flex;
-  width: 70px;
-  height: 70px;
+.icon-list {
+width: 270px;
+height: 120px;
+display: flex;
+background: #F5F4FA;
+border-radius: 4px;
+justify-content: center;
+  align-items: center;
  
 }
+
 
 .details {
   display: flex;
@@ -392,6 +388,8 @@ margin-top: 72px;
   align-items: center;
   margin-left: 318px;
 }
+
+
 .site-nav {
   display: flex;
   gap: 50px;
